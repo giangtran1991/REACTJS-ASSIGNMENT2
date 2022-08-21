@@ -1,0 +1,14 @@
+.result-list {
+    float: left;
+    padding: 6px;
+}
+
+.result-list img {
+    width: 154px;
+    height: 221px;
+}
+
+.movies {
+    width: 100vw;
+    display: inline-block;
+}

@@ -1,0 +1,184 @@
+/* Source code: https://colorlib.com/wp/template/colorlib-search-9/ */
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 100%;
+    max-width: 790px;
+    margin: 0;
+    padding: 15px;
+}
+
+form .inner-form {
+    width: 100%;
+}
+
+form .inner-form .input-field {
+    position: relative;
+}
+
+form .inner-form .input-field input {
+    height: 100%;
+    border: 0;
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 32px 10px 70px;
+    font-size: 18px;
+    color: #666;
+    border-radius: 3px;
+    height: 70px;
+    color: #555;
+}
+
+form .inner-form .input-field input.placeholder {
+    color: #999;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+form .inner-form .input-field input:-moz-placeholder {
+    color: #999;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+form .inner-form .input-field input::-webkit-input-placeholder {
+    color: #999;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+form .inner-form .input-field input:hover,
+form .inner-form .input-field input:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+form .inner-form .input-field .result-count .group-btn {
+    width: 200px;
+    height: 40px;
+    float: right;
+    margin-right: 0px;
+}
+
+form .inner-form .input-field .btn-search {
+    min-width: 100px;
+    height: 40px;
+    padding: 0 15px;
+    background: #00bbec;
+    white-space: nowrap;
+    border-radius: 0;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.2s ease-out, color 0.2s ease-out;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+form .inner-form .input-field .btn-search:hover,
+form .inner-form .input-field .btn-search:focus {
+    background: #00a7d3;
+}
+
+form .inner-form .input-field .btn-delete {
+    min-width: 100px;
+    height: 40px;
+    padding: 0 15px;
+    background: transparent;
+    white-space: nowrap;
+    border-radius: 0;
+    font-size: 14px;
+    color: #666;
+    transition: all 0.2s ease-out, color 0.2s ease-out;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form .inner-form .input-field .btn-delete:hover,
+form .inner-form .input-field .btn-delete:focus {
+    color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+
+form .inner-form .basic-search {
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    border-bottom: 2px solid #00bbec;
+}
+
+form .inner-form .basic-search .input-field {
+    width: 100%;
+}
+
+form .inner-form .basic-search .input-field input {
+    padding: 10px 80px 10px 40px;
+}
+
+form .inner-form .basic-search .input-field .icon-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+}
+
+form .inner-form .basic-search .input-field .icon-wrap svg {
+    width: 34px;
+    height: 34px;
+    fill: #ccc;
+}
+
+form .inner-form .advance-search {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    height: 120px;
+}
+
+form
+    .inner-form
+    .advance-search
+    .choices[data-type*="select-one"]
+    .choices__button {
+    display: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media screen and (max-width: 767px) {
+    form .inner-form .basic-search .input-field input {
+        padding: 10px 80px 10px 15px;
+    }
+    form .inner-form .basic-search .input-field .icon-wrap {
+        width: 80px;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    form .inner-form .basic-search .input-field .icon-wrap svg {
+        width: 30px;
+        height: 30px;
+    }
+    form .inner-form .advance-search {
+        padding: 30px 15px;
+    }
+    form .inner-form .advance-search .row {
+        display: block;
+    }
+    form .inner-form .advance-search .input-field {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/*# sourceMappingURL=Searchs_009.css.map */

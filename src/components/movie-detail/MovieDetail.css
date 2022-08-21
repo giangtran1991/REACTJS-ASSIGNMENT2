@@ -1,0 +1,30 @@
+.container_swap {
+    display: inline-block;
+    width: 90vw;
+}
+
+.left {
+    width: 47vw;
+    float: left;
+    margin-left: 30px;
+}
+.left h2 {
+    color: white;
+}
+
+.left h4 {
+    color: white;
+}
+.left p {
+    color: white;
+}
+
+.right {
+    width: 46vw;
+    float: left;
+    margin-left: 15px;
+}
+
+img {
+    width: 45vw;
+}

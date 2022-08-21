@@ -1,0 +1,30 @@
+.navBar {
+    color: red;
+    font-size: 20px;
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+}
+
+.scrolled {
+    background-color: black;
+}
+
+.container {
+    padding: 25px 40px 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+
+span {
+    font-weight: bold;
+}
+
+svg {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    cursor: pointer;
+}
